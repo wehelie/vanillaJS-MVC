@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vanilla JS todoMVC</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="write">
+		<form class="write-note-form" action="">
+			<input type="text" class="write-note">
+			<input type="submit" class="submit-note" value="Add">
+		</form>
+	</div>
+
+	<div class="read">
+		<h3 class="no-notes-found hidden">	
+			You have no note saved so far. Go ahead and make some! :)
+		</h3>
+		<ul class="notes">
+			<!-- content coming from main.js -->
+		</ul>
+	</div>
+	
+	<script src="js/router.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>
